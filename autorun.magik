@@ -1,2 +1,4 @@
 write("RUNNING autorun.magik")
+write("QUITTING")
 quit(1)
+write("THIS SHOULD NOT BE DISPLAYED!")

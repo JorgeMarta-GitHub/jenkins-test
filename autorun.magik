@@ -1,0 +1,2 @@
+write("RUNNING autorun.magik")
+quit(1)

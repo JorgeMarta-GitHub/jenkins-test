@@ -6,12 +6,7 @@ pipeline {
     }
   
   stages {
-    stage('Build') {
-                    if (env.SMALLWORLD_RESULT == 'true') {
-            echo 'Smallworld is true'
-        } else {
-            echo 'Smallworld is not true'
-                 }       
+    stage('Build') {  
       steps {
         script {
           BUILD_FULL = sh (
@@ -22,9 +17,7 @@ pipeline {
           echo "Build full flag: ${BUILD_FULL}"
           }
         echo "Result is ${SMALLWORLD_RESULT}"
-
-        }
       }
     }
-  
+  }
 }

@@ -1,5 +1,10 @@
 pipeline {
   agent {dockerfile true}
+  
+  environment {
+        SMALLWORLD_RESULT = 'true'
+    }
+  
   stages {
     stage('Build') {
       steps {

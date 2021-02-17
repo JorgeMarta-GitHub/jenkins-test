@@ -19,5 +19,9 @@ pipeline {
         echo "Result is ${SMALLWORLD_RESULT}"
       }
     }
+    stage('Test') {
+      steps {
+      }
+    }
   }
 }

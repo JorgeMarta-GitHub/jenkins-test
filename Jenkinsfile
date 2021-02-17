@@ -17,7 +17,6 @@ pipeline {
           echo "Build full flag: ${BUILD_FULL}"
           }
         echo "Result is ${SMALLWORLD_RESULT}"
-        exit 0
       }
     }
     stage('Test') {

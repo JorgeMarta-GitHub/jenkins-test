@@ -1,5 +1,5 @@
 write("RUNNING autorun.magik")
 print(smallworld_product)
 write("QUITTING")
-quit(_false)
+quit(1)
 write("THIS SHOULD NOT BE DISPLAYED!")
